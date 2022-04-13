@@ -1,13 +1,104 @@
-#div-form{
-text-align: center;
-margin-top: 50px;
-margin-bottom: 50px;
-margin-left: 250px;
-margin-right: 250px;
-background-color: blue;
-color: white;
+#title{
+    text-align: center;
 }
+#description{
+    text-align: center;
+}
+ 
+body{
+    font-family: monospace;
+}
+
+#section-name{
+}
+
+#div-form{
+background-color: #F28B75;
+color: white;
+position: static;
+display: inline-block;
+
+justify-content: center;
+align-items: center;
+margin-top: 5%;
+margin-left: 22%;
+margin-right:22%;
+top: 10%;
+
+}
+input{
+    margin-top: 5x;
+    width: 100%;
+}
+#label-radio{
+
+    margin-top: 10px;
+}
+
+#radiogroup{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+#survey-form{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
 .background{
 
-background-color: blueviolet;
+background-color: #FFA795;
 }
+
+#checkboxes{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+#comentarios{
+   
+    margin-top: 10px;
+    width: 100%;
+    
+    
+}
+#submit{
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+@media screen and (max-width: 600px) {
+    #survey-form{
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    #div-form{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    #radiogroup{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    #checkboxes{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    #comentarios{
+       
+        margin-top: 10px;
+        width: 100%;
+        
+        
+    }
+    #submit{
+        margin-top: 10px;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}
+    
