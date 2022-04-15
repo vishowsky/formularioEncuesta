@@ -9,6 +9,14 @@ body{
     font-family: monospace;
 }
 
+#submit{
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 45%;
+
+}
+
 #section-name{
 }
 
